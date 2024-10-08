@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.main-div
+{
+    background: rgba(0,0,0,.5);
+    width: 500px;
+    height: 475px;
+    margin-top:2%;
+    margin-left: 33%;
+    padding: 15px;
+    text-align: center;
+
+}
+.main-div:hover
+{
+box-shadow: 12px 12px 12px rgba(0,0,0,0.4);
+}
+input
+{
+width: 200px;
+height: 45px;
+border-radius: 1em;
+border-color: blueviolet;
+}
+form:nth-child(even)
+{
+    float: right;
+}
+
+#btn-donate
+{
+    width: 150px;
+    height: 40px;
+    background-color:black ;
+    color: white;
+    font-size: large;
+}
+
+body{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://lowvelder.co.za/wp-content/uploads/sites/44/2016/10/IMG_1293.jpg');
+}
